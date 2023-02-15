@@ -24,12 +24,16 @@ Object.defineProperty(window.performance, 'timeOrigin', {
     value: undefined,
 });
 
+// @ts-ignore
+// Object.defineProperty(window.performance, 'now', {
+//     value: undefined,
+// });
 
 setTimeout(async () => {
     const Sentry = await import('@sentry/browser');
     const { BrowserTracing } = await import('@sentry/tracing');
     Sentry.init({
-        dsn: "https://examplePublicKey@o0.ingest.sentry.io/0",
+        dsn: "https://99be236fbebc420783c58ae108afbf49@o4504683956600832.ingest.sentry.io/4504683957846016",
         debug: true,
         // Alternatively, use `process.env.npm_package_version` for a dynamic release version
         // if your build tool supports it.
