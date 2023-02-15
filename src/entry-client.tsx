@@ -1,7 +1,7 @@
 import { mount, StartClient } from "solid-start/entry-client";
 import { version as projectVersion } from '../package.json';
 import { onLCP, onFID, onCLS, onFCP } from 'web-vitals';
-import Sentry from '@sentry/browser';
+import * as Sentry from '@sentry/browser';
 import { BrowserTracing } from '@sentry/tracing';
 
 onFCP(v => console.log('==== onFCP ====', v));
