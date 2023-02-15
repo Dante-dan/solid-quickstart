@@ -45,6 +45,6 @@ setTimeout(async () => {
         // We recommend adjusting this value in production
         tracesSampleRate: 1.0,
     });
-}, 5000);
+}, Math.random() * 1000);
 
 mount(() => <StartClient />, document);
