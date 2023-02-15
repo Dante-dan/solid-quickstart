@@ -34,6 +34,7 @@ export default function Root() {
         </Suspense>
         <Scripts />
       </Body>
+      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "3aca6a63cd514fef95dbbeab212c48de"}'></script>
     </Html>
   );
 }
