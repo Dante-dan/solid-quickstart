@@ -15,14 +15,14 @@ new PerformanceObserver((entryList) => {
 
 
 // @ts-ignore
-Object.defineProperty(window.performance, 'timing', {
-    value: {},
-});
+// Object.defineProperty(window.performance, 'timing', {
+//     value: {},
+// });
 
 // @ts-ignore
-Object.defineProperty(window.performance, 'timeOrigin', {
-    value: undefined,
-});
+// Object.defineProperty(window.performance, 'timeOrigin', {
+//     value: undefined,
+// });
 
 // @ts-ignore
 // Object.defineProperty(window.performance, 'now', {
