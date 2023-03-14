@@ -14,8 +14,8 @@
     "vite": "^3.1.0"
   },
   "dependencies": {
-    "@sentry/browser": "^7.37.2",
-    "@sentry/tracing": "^7.37.2",
+    "@sentry/browser": "^7.43.0",
+    "@sentry/tracing": "^7.43.0",
     "@solidjs/meta": "^0.28.0",
     "@solidjs/router": "^0.5.0",
     "solid-js": "^1.5.7",
